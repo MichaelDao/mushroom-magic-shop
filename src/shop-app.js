@@ -246,7 +246,7 @@ class ShopApp extends PolymerElement {
             <paper-icon-button icon="arrow-back" aria-label="Go back"></paper-icon-button>
           </a>
         </div>
-        <div class="logo" main-title=""><a href="/" aria-label="SHOP Home">SHOP</a></div>
+        <div class="logo" main-title=""><a href="/" aria-label="SHOP Home">MUSHROOM MAGIC</a></div>
         <div class="cart-btn-container">
           <a href="/cart" tabindex="-1">
             <paper-icon-button icon="shopping-cart" aria-label\$="Shopping cart: [[_computePluralizedQuantity(numItems)]]"></paper-icon-button>
@@ -483,7 +483,7 @@ class ShopApp extends PolymerElement {
 
     // Announce the page's title
     if (detail.title) {
-      document.title = detail.title + ' - SHOP';
+      document.title = detail.title + ' - MUSHROOM MAGIC';
       this._announce(detail.title + ', loaded');
       // Set open graph metadata
       this._setMeta('property', 'og:title', detail.title);
